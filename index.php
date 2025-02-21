@@ -33,15 +33,15 @@
     <style>
         .navbar {
             background-color: rgb(74, 138, 155);
-            height: 100px;
+            height: 80px;
             padding: 15px;
-   
+            font-size: medium;
         }
 
         .navbar-brand {
-            font-weight: bold;
+            font-weight: bolder;
             color: white;
-            font-size: 1.7rem;
+            font-size: 2.1rem;
         }
 
         .navbar-nav .nav-link {
@@ -69,6 +69,7 @@
         }
 
         .search-bar {
+         padding: 20px;
             width: 500px;
         }
 
