@@ -17,7 +17,10 @@
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
         }
-
+        #carouselExampleCaptions .carousel-item img {
+    height: 650px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+  }
     </style>
 </head>
 
@@ -34,23 +37,23 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./photo/cricket/cri2.jpg" class="d-block w-100" alt="Slide 1">
+      <img src="./photo/football/foot.jpg" class="d-block w-100" alt="Slide 1">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Cricket Fever</h5>
-        <p>Get the best cricket gear for your next match.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./photo/football/foot.jpg" class="d-block w-100" alt="Slide 2">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Football Passion</h5>
+        <h1>Football Passion</h1>
         <p>Top-quality footballs and accessories available now.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./photo/cricket/cri.jpg" class="d-block w-100" alt="Slide 2">
+        <div class="carousel-caption d-none d-md-block">
+        <h1>Cricket Fever</h1>
+        <p>Get the best cricket gear for your next match.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="./photo/badmintan/bad.jpg" class="d-block w-100" alt="Slide 3">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Badminton Gear</h5>
+        <h1>Badminton Gear</h1>
         <p>Smash your way to victory with premium badminton equipment.</p>
       </div>
     </div>

@@ -6,20 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SportsHub Navbar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
         .navbar {
-            background-color: #004aad;
+            background-color: rgb(8, 8, 8);
             padding: 1rem 1.5rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s ease;
         }
 
         .navbar:hover {
-            background-color: #003080;
+            background-color: rgb(7, 7, 7);
         }
 
         .navbar-brand {
@@ -32,7 +31,10 @@
             color: #fff;
             margin-right: 20px;
             font-size: 1.1rem;
-            transition: color 0.3s ease, transform 0.3s ease;
+            transition: color 0.3s ease, transform 0.3s ease, border 0.3s ease;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            padding: 5px 10px;
         }
 
         .navbar-nav .nav-link i {
@@ -43,11 +45,13 @@
         .navbar-nav .nav-link:focus {
             color: #ffcc00;
             transform: translateY(-3px);
+            border-color: #ffcc00;
+            background-color: rgba(255, 204, 0, 0.1);
         }
 
         .dropdown-menu {
             border-radius: 0;
-            background-color: #004aad;
+            background-color:rgb(20, 20, 20);
             animation: dropdownFade 0.3s ease;
         }
 
@@ -56,6 +60,7 @@
                 opacity: 0;
                 transform: translateY(-10px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -72,7 +77,7 @@
         }
 
         .dropdown-item:hover {
-            background-color: #003080;
+            background-color: #ffcc00;
         }
 
         .form-control:focus {
@@ -114,7 +119,7 @@
 </head>
 
 <body>
- 
+
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><i class="fas fa-basketball-ball"></i> SportsHub</a>
@@ -128,15 +133,15 @@
                         <a class="nav-link active" aria-current="page" href="./index.php"><i class="fas fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <i class="fas fa-shopping-bag"></i> Sport Gare
-                        </a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fas fa-shopping-bag"></i> Sport Gare
+</a>
+
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="./tabletennis.php"><i class="fas fa-table-tennis"></i> Table Tennis</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fas fa-futbol"></i> Football</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-baseball-bat-ball"></i> Cricket</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-table-tennis-paddle-ball"></i> Badminton</a></li>
+                            <li><a class="dropdown-item" href="./football.php"><i class="fas fa-futbol"></i> Football</a></li>
+                            <li><a class="dropdown-item" href="./cricket.php"><i class="fa-solid fa-baseball-bat-ball"></i> Cricket</a></li>
+                            <li><a class="dropdown-item" href="./badminton.php"><i class="fa-solid fa-table-tennis-paddle-ball"></i> Badminton</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
