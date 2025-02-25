@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./photo/badmintan/bad.jpg" class="d-block w-100" alt="Slide 3">
+      <img src="./photo/badminton/bad.jpg" class="d-block w-100" alt="Slide 3">
       <div class="carousel-caption d-none d-md-block">
         <h1>Badminton Gear</h1>
         <p>Smash your way to victory with premium badminton equipment.</p>
@@ -67,13 +67,15 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<div class="container my-5">
+
+
+<div class="container my-5" style="max-width: 1110px;">
   <h2 class="text-center mb-4">Featured Products</h2>
   <div class="row">
     <!-- Product Card 1 -->
     <div class="col-md-4 mb-4">
       <div class="card shadow-sm">
-        <img src="./photo/cricket/bat.jpg" class="card-img-top" alt="Cricket Bat">
+        <img src="./photo/cricket/bat2.png" class="card-img-top" alt="Cricket Bat">
         <div class="card-body">
           <h5 class="card-title">Cricket Bat</h5>
           <p class="card-text">Premium quality cricket bat for professional play.</p>
@@ -87,7 +89,7 @@
     <!-- Product Card 2 -->
     <div class="col-md-4 mb-4">
       <div class="card shadow-sm">
-        <img src="https://cdn.pixabay.com/photo/2016/05/27/14/33/football-1419954_1280.jpg" class="card-img-top" alt="Football">
+        <img src="./photo/football/footbal5.png" class="card-img-top" alt="Football">
         <div class="card-body">
           <h5 class="card-title">Football</h5>
           <p class="card-text">High-quality football suitable for all surfaces.</p>
@@ -101,17 +103,18 @@
     <!-- Product Card 3 -->
     <div class="col-md-4 mb-4">
       <div class="card shadow-sm">
-        <img src="./photo/badmintan/bad4.jpg" class="card-img-top" alt="Badminton Racket">
+        <img src="./photo/badminton/shoes.png" class="card-img-top" alt="Badminton Racket">
         <div class="card-body">
-          <h5 class="card-title">Badminton Racket</h5>
-          <p class="card-text">Lightweight racket designed for optimal performance.</p>
+          <h5 class="card-title">Badminton Shoes</h5>
+          <p class="card-text">Lightweight Shoes designed for optimal performance.</p>
           <p class="card-text"><strong>Price:</strong> ₹1800</p>
           <a href="cart.php" class="btn btn-primary">Add to Cart</a>
           <a href="cart.php" class="btn btn-success">Buy Now</a>
         </div>
       </div>
-    </div>
+  
   </div>
+</div>
 </div>
 <?php include('./include/footer.php');?>
 </body>

@@ -69,7 +69,7 @@
                 <tbody id="cartItems">
                     <!-- Example Cart Item -->
                     <tr data-price="1500">
-                        <td><img src="https://source.unsplash.com/400x300/?cricket" alt="Cricket Bat"></td>
+                        <td><img src="./photo//cricket/bat2.png" alt="Cricket Bat"></td>
                         <td>Cricket Bat</td>
                         <td>₹1500</td>
                         <td>
@@ -80,7 +80,7 @@
                     </tr>
 
                     <tr data-price="800">
-                        <td><img src="https://source.unsplash.com/400x300/?football" alt="Football"></td>
+                        <td><img src="./photo/football/foot.jpg" alt="Football"></td>
                         <td>Football</td>
                         <td>₹800</td>
                         <td>
