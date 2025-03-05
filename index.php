@@ -58,7 +58,10 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="sportgare.php">Sport Gare</a>
+                            </li><li class="nav-item">
+                                <a class="nav-link" href="addtocart.php">Class</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="addtocart.php">Add to cart</a>
                             </li>
